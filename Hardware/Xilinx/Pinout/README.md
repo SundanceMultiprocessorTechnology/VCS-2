@@ -1,4 +1,4 @@
-# VCS-2 FM191 Firmware
+# VCS-1 FM191 Firmware
 This repository contains an excel file with the FPGA pin locations
 
 Sundance contact: 
