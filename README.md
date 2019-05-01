@@ -1,11 +1,11 @@
 # VCS-2
-This repository stores the VCS-1 source code.
+This repository stores the VCS-2 source code.
 
 # Directory structure
 [See the repository structure](https://github.com/SundanceMultiprocessorTechnology/VCS-2/blob/master/directorySctructure.md)
 
 ## VCS-2 documentation
-All the pdf documents can be found in the [Documentation](https://github.com/SundanceMultiprocessorTechnology/VCS-2/tree/master/Documents) folder. There is also relevant information inside each one of the repository folder and in the [wiki](https://github.com/SundanceMultiprocessorTechnology/VCS-1/wiki).
+All the pdf documents can be found in the [Documentation](https://github.com/SundanceMultiprocessorTechnology/VCS-2/tree/master/Documents) folder. There is also relevant information inside each one of the repository folder and in the [wiki](https://github.com/SundanceMultiprocessorTechnology/VCS-2/wiki).
 
 # Managing the Repository
 ## Meeting the requirements
