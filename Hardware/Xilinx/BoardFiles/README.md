@@ -1,4 +1,4 @@
-# VCS-1 Board Files
+# VCS-2 Board Files
 
 Sundance contact:
 
