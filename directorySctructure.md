@@ -14,19 +14,34 @@
 │   └── Xilinx
 │       ├── BoardFiles
 │       │   ├── EMC2-DP_TE0820_3EG_1E
-│       │   │   └── 1.0
+│       │   │   ├── 1.0
+│       │   │   │   ├── board.xml
+│       │   │   │   ├── EMC2_DP_TE0820_3EG_1E.png
+│       │   │   │   ├── part0_pins.xml
+│       │   │   │   └── preset.xml
+│       │   │   └── 2.0
 │       │   │       ├── board.xml
 │       │   │       ├── EMC2_DP_TE0820_3EG_1E.png
 │       │   │       ├── part0_pins.xml
 │       │   │       └── preset.xml
 │       │   ├── EMC2-DP_TE0820_4CG_1EA
-│       │   │   └── 1.0
+│       │   │   ├── 1.0
+│       │   │   │   ├── board.xml
+│       │   │   │   ├── EMC2_DP_TE0820_4CG_1EA.png
+│       │   │   │   ├── part0_pins.xml
+│       │   │   │   └── preset.xml
+│       │   │   └── 2.0
 │       │   │       ├── board.xml
 │       │   │       ├── EMC2_DP_TE0820_4CG_1EA.png
 │       │   │       ├── part0_pins.xml
 │       │   │       └── preset.xml
 │       │   ├── EMC2-DP_TE0820_4EV_1E
-│       │   │   └── 1.0
+│       │   │   ├── 1.0
+│       │   │   │   ├── board.xml
+│       │   │   │   ├── EMC2-DP_TE0820_4EV_1E.png
+│       │   │   │   ├── part0_pins.xml
+│       │   │   │   └── preset.xml
+│       │   │   └── 2.0
 │       │   │       ├── board.xml
 │       │   │       ├── EMC2-DP_TE0820_4EV_1E.png
 │       │   │       ├── part0_pins.xml
@@ -107,5 +122,5 @@
 ├── push.sh
 └── README.md
 
-46 directories, 59 files
+49 directories, 71 files
 ```
