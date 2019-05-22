@@ -56,6 +56,10 @@
 │       │   │   ├── IP_Repo_ZU
 │       │   │   │   ├── Interfaces
 │       │   │   │   │   └── spi_custom
+│       │   │   │   │       ├── Dual_SPI_rtl.xml
+│       │   │   │   │       ├── Dual_SPI.xml
+│       │   │   │   │       ├── Quad_SPI_rtl.xml
+│       │   │   │   │       ├── Quad_SPI.xml
 │       │   │   │   │       ├── SPI_rtl.xml
 │       │   │   │   │       └── SPI.xml
 │       │   │   │   └── ip
@@ -87,11 +91,11 @@
 │       │   │   │       │       │   └── timing_impl_clocks.xdc
 │       │   │   │       │       └── xgui
 │       │   │   │       │           └── dpu_eu_v0_0_53.tcl
-│       │   │   │       ├── SPI_US_Buffering
+│       │   │   │       ├── FM192_SPI_Buffering
 │       │   │   │       │   ├── component.xml
 │       │   │   │       │   ├── SPI_US_Buffering.vhd
 │       │   │   │       │   └── xgui
-│       │   │   │       │       └── SPI_US_Buffering_v1_0.tcl
+│       │   │   │       │       └── FM192_SPI_Buffering_v1_0.tcl
 │       │   │   │       └── video_io_to_hdmi
 │       │   │   │           ├── component.xml
 │       │   │   │           ├── video_io_to_hdmi.vhd
@@ -100,17 +104,29 @@
 │       │   │   ├── README.md
 │       │   │   ├── ZU3EG
 │       │   │   │   ├── FM192-RU
+│       │   │   │   │   ├── FM192_ZU3EG.tcl
+│       │   │   │   │   ├── FM192_ZU3EG.xdc
 │       │   │   │   │   ├── Prebuilt
+│       │   │   │   │   │   ├── design_1_wrapper.bit
+│       │   │   │   │   │   └── design_1_wrapper.hdf
 │       │   │   │   │   └── README.md
 │       │   │   │   └── README.md
 │       │   │   ├── ZU4CG
 │       │   │   │   ├── FM192-RU
+│       │   │   │   │   ├── FM192_ZU4CG.tcl
+│       │   │   │   │   ├── FM192_ZU4CG.xdc
 │       │   │   │   │   ├── Prebuilt
+│       │   │   │   │   │   ├── design_1_wrapper.bit
+│       │   │   │   │   │   └── design_1_wrapper.hdf
 │       │   │   │   │   └── README.md
 │       │   │   │   └── README.md
 │       │   │   └── ZU4EV
 │       │   │       ├── FM192-RU
+│       │   │       │   ├── FM192_ZU4EV.tcl
+│       │   │       │   ├── FM192_ZU4EV.xdc
 │       │   │       │   ├── Prebuilt
+│       │   │       │   │   ├── design_1_wrapper.bit
+│       │   │       │   │   └── design_1_wrapper.hdf
 │       │   │       │   └── README.md
 │       │   │       └── README.md
 │       │   └── README.md
@@ -122,5 +138,5 @@
 ├── push.sh
 └── README.md
 
-49 directories, 71 files
+49 directories, 87 files
 ```

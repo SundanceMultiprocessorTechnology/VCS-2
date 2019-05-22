@@ -508,12 +508,12 @@
 						<preferred_ip vendor="xilinx.com" library="ip" name="axi_uartlite" order="0"/>
 					</preferred_ips>
 					<port_maps>
-						<port_map logical_port="TxD" physical_port="GPIO_UART_TX" dir="out">
+						<port_map logical_port="TxD" physical_port="GPIO_UART0_TX" dir="out">
 							<pin_maps>
 								<pin_map port_index="0" component_pin="fmc_la07_n"/>
 							</pin_maps>
 						</port_map>
-						<port_map logical_port="RxD" physical_port="GPIO_UART_RX" dir="in">
+						<port_map logical_port="RxD" physical_port="GPIO_UART0_RX" dir="in">
 							<pin_maps>
 								<pin_map port_index="0" component_pin="fmc_la12_p"/>
 							</pin_maps>
@@ -525,12 +525,12 @@
 						<preferred_ip vendor="xilinx.com" library="ip" name="axi_uartlite" order="0"/>
 					</preferred_ips>
 					<port_maps>
-						<port_map logical_port="TxD" physical_port="GPIO_UART_TX" dir="out">
+						<port_map logical_port="TxD" physical_port="GPIO_UART1_TX" dir="out">
 							<pin_maps>
 								<pin_map port_index="0" component_pin="fmc_la15_n"/>
 							</pin_maps>
 						</port_map>
-						<port_map logical_port="RxD" physical_port="GPIO_UART_RX" dir="in">
+						<port_map logical_port="RxD" physical_port="GPIO_UART1_RX" dir="in">
 							<pin_maps>
 								<pin_map port_index="0" component_pin="fmc_la12_n"/>
 							</pin_maps>
