@@ -1,0 +1,128 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port HL7800_UART2 -pg 1 -y 680 -defaultsOSRD
+preplace port HL7800_UART_CTS -pg 1 -y 2900 -defaultsOSRD
+preplace port GPIO_UART0 -pg 1 -y 210 -defaultsOSRD
+preplace port HL7800_UART_RTS -pg 1 -y 2920 -defaultsOSRD
+preplace port GPIO_UART1 -pg 1 -y 1000 -defaultsOSRD
+preplace port GPIOs -pg 1 -y 2530 -defaultsOSRD
+preplace port Control_signals -pg 1 -y 2390 -defaultsOSRD
+preplace port GPIO_SPI -pg 1 -y 860 -defaultsOSRD
+preplace port I2C2 -pg 1 -y 1510 -defaultsOSRD
+preplace port BX3100_UART_RTS -pg 1 -y 90 -defaultsOSRD
+preplace port UART_1 -pg 1 -y 1660 -defaultsOSRD
+preplace port GPIO_I2C0 -pg 1 -y 1170 -defaultsOSRD
+preplace port UART_2 -pg 1 -y 1800 -defaultsOSRD
+preplace port M_Board_LEDs -pg 1 -y 3050 -defaultsOSRD
+preplace port GPIO_I2C1 -pg 1 -y 1330 -defaultsOSRD
+preplace port UART_3 -pg 1 -y 1940 -defaultsOSRD
+preplace port UART_RQ -pg 1 -y 2670 -defaultsOSRD
+preplace port BX3100_UART -pg 1 -y 350 -defaultsOSRD
+preplace port C_Board_LEDs -pg 1 -y 2250 -defaultsOSRD
+preplace port CAN0 -pg 1 -y 770 -defaultsOSRD
+preplace port CAN1 -pg 1 -y 790 -defaultsOSRD
+preplace port BX3100_UART_CTS -pg 1 -y 70 -defaultsOSRD
+preplace port HL7800_UART1 -pg 1 -y 520 -defaultsOSRD
+preplace port BMX_DAC_SPI -pg 1 -y 880 -defaultsOSRD
+preplace portBus PHY_LED_TE -pg 1 -y 2790 -defaultsOSRD
+preplace portBus PHY_LED -pg 1 -y 2790 -defaultsOSRD
+preplace inst C_LEDs -pg 1 -lvl 4 -y 2250 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 2 -y 1070 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -y 1670 -defaultsOSRD
+preplace inst SPI_flag -pg 1 -lvl 4 -y 2110 -defaultsOSRD
+preplace inst Ethernet_LEDs -pg 1 -lvl 4 -y 2790 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -y 830 -defaultsOSRD
+preplace inst FMC_I2C -pg 1 -lvl 4 -y 1530 -defaultsOSRD
+preplace inst AXI_GPIO_I2C0 -pg 1 -lvl 4 -y 1190 -defaultsOSRD
+preplace inst AXI_HL7800_UART1 -pg 1 -lvl 4 -y 530 -defaultsOSRD
+preplace inst AXI_GPIO_I2C1 -pg 1 -lvl 4 -y 1350 -defaultsOSRD
+preplace inst PLPS_INT1 -pg 1 -lvl 1 -y 1060 -defaultsOSRD
+preplace inst AXI_HL7800_UART2 -pg 1 -lvl 4 -y 690 -defaultsOSRD
+preplace inst PLPS_INT2 -pg 1 -lvl 1 -y 690 -defaultsOSRD
+preplace inst HL7800_UART_CTS_RTS -pg 1 -lvl 4 -y 2910 -defaultsOSRD
+preplace inst AXI_BX3100_UART -pg 1 -lvl 4 -y 360 -defaultsOSRD
+preplace inst ADC_UART_1 -pg 1 -lvl 4 -y 1670 -defaultsOSRD
+preplace inst ADC_UART_RQs -pg 1 -lvl 4 -y 2670 -defaultsOSRD
+preplace inst HL7800_BX3100_Control -pg 1 -lvl 4 -y 2390 -defaultsOSRD
+preplace inst BX3100_UART_CTS_RTS -pg 1 -lvl 4 -y 80 -defaultsOSRD
+preplace inst ADC_UART_2 -pg 1 -lvl 4 -y 1810 -defaultsOSRD
+preplace inst FM192_SPI_Buffering_0 -pg 1 -lvl 4 -y 870 -defaultsOSRD
+preplace inst ADC_UART_3 -pg 1 -lvl 4 -y 1950 -defaultsOSRD
+preplace inst M_LEDs -pg 1 -lvl 4 -y 3050 -defaultsOSRD
+preplace inst AXI_GPIOs -pg 1 -lvl 4 -y 2530 -defaultsOSRD
+preplace inst AXI_GPIO_UART0 -pg 1 -lvl 4 -y 220 -defaultsOSRD
+preplace inst AXI_GPIO_UART1 -pg 1 -lvl 4 -y 1010 -defaultsOSRD
+preplace netloc ps8_0_axi_periph_M09_AXI 1 3 1 1340
+preplace netloc axi_gpio_0_GPIO7 1 4 1 NJ
+preplace netloc ps8_0_axi_periph_M05_AXI 1 3 1 1360
+preplace netloc ps8_0_axi_periph_M04_AXI 1 3 1 1480
+preplace netloc axi_gpio_0_GPIO8 1 4 1 NJ
+preplace netloc AXI_HL7800_UART1_interrupt 1 0 5 70 610 NJ 610 NJ 610 NJ 610 1830
+preplace netloc AXI_BX3100_UART_interrupt 1 0 5 20 440 NJ 440 NJ 440 NJ 440 1830
+preplace netloc AXI_GPIO_UART1_interrupt 1 0 5 70 930 270J 1170 980J 1110 NJ 1110 1850
+preplace netloc ADC_UART_3_interrupt 1 0 5 60 1210 NJ 1210 970J 1090 NJ 1090 1860
+preplace netloc Op1_0_1 1 0 4 NJ 2790 NJ 2790 NJ 2790 NJ
+preplace netloc axi_uartlite_0_UART1 1 4 1 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 1 3 320 1230 1000 880 1460
+preplace netloc PLPS_INT1_dout 1 1 1 300
+preplace netloc FMC_I2C_iic2intc_irpt 1 0 5 30 920 280J 970 NJ 970 1510J 1450 1830
+preplace netloc ps8_0_axi_periph_M18_AXI 1 3 1 1350
+preplace netloc ps8_0_axi_periph_M11_AXI 1 3 1 1490
+preplace netloc axi_uartlite_0_UART2 1 4 1 NJ
+preplace netloc ps8_0_axi_periph_M06_AXI 1 3 1 1400
+preplace netloc ps8_0_axi_periph_M02_AXI 1 3 1 1420
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 2 1 990
+preplace netloc axi_uartlite_0_UART3 1 4 1 NJ
+preplace netloc util_vector_logic_0_Res 1 4 1 NJ
+preplace netloc ps8_0_axi_periph_M15_AXI 1 3 1 N
+preplace netloc ps8_0_axi_periph_M03_AXI 1 3 1 1440
+preplace netloc axi_uartlite_0_UART4 1 4 1 NJ
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 2 2 960 1120 1470
+preplace netloc AXI_HL7800_UART2_interrupt 1 0 5 70 770 300J 700 NJ 700 1530J 770 1830
+preplace netloc ps8_0_axi_periph_M13_AXI 1 3 1 1330
+preplace netloc ps8_0_axi_periph_M01_AXI 1 3 1 1360
+preplace netloc axi_uartlite_0_UART5 1 4 1 NJ
+preplace netloc FM192_SPI_Buffering_0_SPI0 1 4 1 NJ
+preplace netloc zynq_ultra_ps_e_0_SPI_0 1 2 2 NJ 820 1530
+preplace netloc AXI_GPIO_I2C0_iic2intc_irpt 1 0 5 70 1220 NJ 1220 1010J 1100 NJ 1100 1830
+preplace netloc axi_uartlite_0_UART6 1 4 1 NJ
+preplace netloc axi_gpio_0_GPIO1 1 4 1 NJ
+preplace netloc FM192_SPI_Buffering_0_SPI1 1 4 1 NJ
+preplace netloc zynq_ultra_ps_e_0_SPI_1 1 2 2 NJ 840 1520
+preplace netloc zynq_ultra_ps_e_0_CAN_0 1 2 3 NJ 780 NJ 780 1860J
+preplace netloc PLPS_INT2_dout 1 1 1 310
+preplace netloc AXI_GPIO_I2C1_iic2intc_irpt 1 0 5 20 910 290J 960 NJ 960 1520J 1270 1830
+preplace netloc ADC_UART_2_interrupt 1 0 5 50 1200 NJ 1200 1020J 1180 1500J 1440 1840
+preplace netloc axi_gpio_0_gpio_io_o 1 3 2 1530 2030 1830
+preplace netloc ps8_0_axi_periph_M12_AXI 1 3 1 1380
+preplace netloc ps8_0_axi_periph_M08_AXI 1 3 1 1430
+preplace netloc ps8_0_axi_periph_M07_AXI 1 3 1 1380
+preplace netloc ps8_0_axi_periph_M00_AXI 1 3 1 1410
+preplace netloc axi_uartlite_0_UART7 1 4 1 NJ
+preplace netloc axi_gpio_0_GPIO2 1 4 1 NJ
+preplace netloc zynq_ultra_ps_e_0_CAN_1 1 2 3 950J 790 NJ 790 NJ
+preplace netloc ps8_0_axi_periph_M14_AXI 1 3 1 1520
+preplace netloc axi_gpio_0_GPIO3 1 4 1 NJ
+preplace netloc axi_iic_0_IIC 1 4 1 NJ
+preplace netloc axi_uartlite_0_UART 1 4 1 NJ
+preplace netloc axi_gpio_0_GPIO 1 4 1 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 2 330 1180 950
+preplace netloc ADC_UART_1_interrupt 1 0 5 40 1190 NJ 1190 NJ 1190 1410J 1430 1850
+preplace netloc ps8_0_axi_periph_M10_AXI 1 3 1 1450
+preplace netloc axi_gpio_0_GPIO4 1 4 1 NJ
+preplace netloc ps8_0_axi_periph_M17_AXI 1 3 1 1370
+preplace netloc ps8_0_axi_periph_M16_AXI 1 3 1 1390
+preplace netloc axi_gpio_0_GPIO5 1 4 1 NJ
+preplace netloc axi_iic_0_IIC1 1 4 1 NJ
+preplace netloc AXI_GPIO_UART0_interrupt 1 0 5 10 450 NJ 450 NJ 450 NJ 450 1860
+preplace netloc axi_iic_0_IIC2 1 4 1 NJ
+preplace netloc axi_gpio_0_GPIO6 1 4 1 NJ
+levelinfo -pg 1 -10 170 640 1180 1680 1880 -top 0 -bot 3130
+"
+}
+{
+   "da_axi4_cnt":"19",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
