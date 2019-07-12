@@ -725,12 +725,12 @@
 					<port_maps>
 						<port_map logical_port="TxD" physical_port="HL7800_UART_1_TX" dir="out">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la05_n"/>
+								<pin_map port_index="0" component_pin="fmc_la09_p"/>
 							</pin_maps>
 						</port_map>
 						<port_map logical_port="RxD" physical_port="HL7800_UART_1_RX" dir="in">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la09_p"/>
+								<pin_map port_index="0" component_pin="fmc_la05_n"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -742,12 +742,12 @@
 					<port_maps>
 						<port_map logical_port="TxD" physical_port="HL7800_UART_2_TX" dir="out">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la10_n"/>
+								<pin_map port_index="0" component_pin="fmc_la10_p"/>
 							</pin_maps>
 						</port_map>
 						<port_map logical_port="RxD" physical_port="HL7800_UART_2_RX" dir="in">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la10_p"/>
+								<pin_map port_index="0" component_pin="fmc_la10_n"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -760,8 +760,8 @@
 					<port_maps>
 						<port_map logical_port="TRI_O" physical_port="HL7800_UART_RTS_tri_o" dir="out" left="1" right="0">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la09_n"/>
-								<pin_map port_index="1" component_pin="fmc_la06_n"/>
+								<pin_map port_index="0" component_pin="fmc_la13_p"/>
+								<pin_map port_index="1" component_pin="fmc_la06_p"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -774,8 +774,8 @@
 					<port_maps>
 						<port_map logical_port="TRI_I" physical_port="HL7800_UART_CTS_tri_i" dir="in" left="1" right="0">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la13_p"/>
-								<pin_map port_index="1" component_pin="fmc_la06_p"/>
+								<pin_map port_index="0" component_pin="fmc_la09_n"/>
+								<pin_map port_index="1" component_pin="fmc_la06_n"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -788,12 +788,12 @@
 					<port_maps>
 						<port_map logical_port="TxD" physical_port="BX3100_UART_TX" dir="out">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la28_p"/>
+								<pin_map port_index="0" component_pin="fmc_la28_n"/>
 							</pin_maps>
 						</port_map>
 						<port_map logical_port="RxD" physical_port="BX3100_UART_RX" dir="in">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la28_n"/>
+								<pin_map port_index="0" component_pin="fmc_la28_p"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -806,7 +806,7 @@
 					<port_maps>
 						<port_map logical_port="TRI_O" physical_port="BX3100_UART_RTS_tri_o" dir="out">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la29_p"/>
+								<pin_map port_index="0" component_pin="fmc_la29_n"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -819,7 +819,7 @@
 					<port_maps>
 						<port_map logical_port="TRI_I" physical_port="BX3100_UART_CTS_tri_i" dir="in">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la29_n"/>
+								<pin_map port_index="0" component_pin="fmc_la29_p"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -832,11 +832,10 @@
 					<port_maps>
 						<port_map logical_port="TRI_O" physical_port="control_signals_tri_o" dir="out" left="4" right="0">
 							<pin_maps>
-								<pin_map port_index="0" component_pin="fmc_la03_p"/>
-								<pin_map port_index="1" component_pin="fmc_la01_cc_p"/>
-								<pin_map port_index="2" component_pin="fmc_la01_cc_n"/>
-								<pin_map port_index="3" component_pin="fmc_la05_p"/>
-								<pin_map port_index="4" component_pin="fmc_la21_n"/>
+								<pin_map port_index="0" component_pin="fmc_la01_cc_p"/>
+								<pin_map port_index="1" component_pin="fmc_la01_cc_n"/>
+								<pin_map port_index="2" component_pin="fmc_la05_p"/>
+								<pin_map port_index="3" component_pin="fmc_la21_n"/>
 							</pin_maps>
 						</port_map>
 					</port_maps>
@@ -978,7 +977,7 @@
 		</component>
 		
 		<component name="control_signals" display_name="Control Signals HL7800 / BX3100" type="chip" sub_type="fixed_io" major_group="FM192-RU -> FMC Control">
-			<description>[0..4]: TX_ON, RESET_IN, WAKE_UP, FAST_SHUTDOWN (HL7800) and ENABLE (BX3100).</description>
+			<description>[0..4]: RESET_IN, WAKE_UP, FAST_SHUTDOWN (HL7800) and ENABLE (BX3100).</description>
 		</component>
 		
 	</components>
@@ -1022,8 +1021,8 @@
 		</connection>
 		
 		<connection name="fmc_lpc_connector_i2c_fmcbus" component1="fmc_lpc_connector" component2="i2c_fmcbus">
-			<connection_map name="fmc_lpc_connector_i2c_fmcbus_1" typical_delay="5" c1_st_index="111" c1_end_index="111" c2_st_index="0" c2_end_index="0"/>
-			<connection_map name="fmc_lpc_connector_i2c_fmcbus_2" typical_delay="5" c1_st_index="110" c1_end_index="110" c2_st_index="1" c2_end_index="1"/>
+			<connection_map name="fmc_lpc_connector_i2c_fmcbus_1" typical_delay="5" c1_st_index="110" c1_end_index="110" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_lpc_connector_i2c_fmcbus_2" typical_delay="5" c1_st_index="111" c1_end_index="111" c2_st_index="1" c2_end_index="1"/>
 		</connection>
 		
 		<connection name="fmc_lpc_connector_adc_uart" component1="fmc_lpc_connector" component2="adc_uart">
@@ -1042,40 +1041,40 @@
 		</connection>
 		
 		<connection name="fmc_lpc_connector_hl7800_uart" component1="fmc_lpc_connector" component2="hl7800_uart">
-      		<connection_map name="fmc_lpc_connector_hl7800_uart_1" typical_delay="5" c1_st_index="132" c1_end_index="132" c2_st_index="0" c2_end_index="0"/>
-			<connection_map name="fmc_lpc_connector_hl7800_uart_2" typical_delay="5" c1_st_index="134" c1_end_index="134" c2_st_index="1" c2_end_index="1"/>
-			<connection_map name="fmc_lpc_connector_hl7800_uart_3" typical_delay="5" c1_st_index="95" c1_end_index="95" c2_st_index="2" c2_end_index="2"/>
-			<connection_map name="fmc_lpc_connector_hl7800_uart_4" typical_delay="5" c1_st_index="94" c1_end_index="94" c2_st_index="3" c2_end_index="3"/>
+      		<connection_map name="fmc_lpc_connector_hl7800_uart_1" typical_delay="5" c1_st_index="134" c1_end_index="134" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_lpc_connector_hl7800_uart_2" typical_delay="5" c1_st_index="132" c1_end_index="132" c2_st_index="1" c2_end_index="1"/>
+			<connection_map name="fmc_lpc_connector_hl7800_uart_3" typical_delay="5" c1_st_index="94" c1_end_index="94" c2_st_index="2" c2_end_index="2"/>
+			<connection_map name="fmc_lpc_connector_hl7800_uart_4" typical_delay="5" c1_st_index="95" c1_end_index="95" c2_st_index="3" c2_end_index="3"/>
     	</connection>
 		
 		<connection name="fmc_lpc_connector_hl7800_uart_rts" component1="fmc_lpc_connector" component2="hl7800_uart_rts">
-			<connection_map name="fmc_lpc_connector_hl7800_uart_rts_1" typical_delay="5" c1_st_index="135" c1_end_index="135" c2_st_index="0" c2_end_index="0"/>
-			<connection_map name="fmc_lpc_connector_hl7800_uart_rts_2" typical_delay="5" c1_st_index="91" c1_end_index="91" c2_st_index="1" c2_end_index="1"/>
+			<connection_map name="fmc_lpc_connector_hl7800_uart_rts_1" typical_delay="5" c1_st_index="137" c1_end_index="137" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_lpc_connector_hl7800_uart_rts_2" typical_delay="5" c1_st_index="90" c1_end_index="90" c2_st_index="1" c2_end_index="1"/>
 		</connection>
 		
 		<connection name="fmc_lpc_connector_hl7800_uart_cts" component1="fmc_lpc_connector" component2="hl7800_uart_cts">
-			<connection_map name="fmc_lpc_connector_hl7800_uart_cts_1" typical_delay="5" c1_st_index="137" c1_end_index="137" c2_st_index="0" c2_end_index="0"/>
-			<connection_map name="fmc_lpc_connector_hl7800_uart_cts_2" typical_delay="5" c1_st_index="90" c1_end_index="90" c2_st_index="1" c2_end_index="1"/>
+			<connection_map name="fmc_lpc_connector_hl7800_uart_cts_1" typical_delay="5" c1_st_index="135" c1_end_index="135" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_lpc_connector_hl7800_uart_cts_2" typical_delay="5" c1_st_index="91" c1_end_index="91" c2_st_index="1" c2_end_index="1"/>
 		</connection>
 		
 		<connection name="fmc_lpc_connector_bx3100_uart" component1="fmc_lpc_connector" component2="bx3100_uart">
-			<connection_map name="fmc_lpc_connector_bx3100_uart_1" typical_delay="5" c1_st_index="311" c1_end_index="312" c2_st_index="0" c2_end_index="1"/>
+			<connection_map name="fmc_lpc_connector_bx3100_uart_1" typical_delay="5" c1_st_index="312" c1_end_index="312" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_lpc_connector_bx3100_uart_2" typical_delay="5" c1_st_index="311" c1_end_index="311" c2_st_index="1" c2_end_index="1"/>
 		</connection>
 		
 		<connection name="fmc_lpc_connector_bx3100_uart_rts" component1="fmc_lpc_connector" component2="bx3100_uart_rts">
-			<connection_map name="fmc_lpc_connector_bx3100_uart_rts_1" typical_delay="5" c1_st_index="270" c1_end_index="270" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_lpc_connector_bx3100_uart_rts_1" typical_delay="5" c1_st_index="271" c1_end_index="271" c2_st_index="0" c2_end_index="0"/>
 		</connection>
 		
 		<connection name="fmc_lpc_connector_bx3100_uart_cts" component1="fmc_lpc_connector" component2="bx3100_uart_cts">
-			<connection_map name="fmc_lpc_connector_bx3100_uart_cts_1" typical_delay="5" c1_st_index="271" c1_end_index="271" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_lpc_connector_bx3100_uart_cts_1" typical_delay="5" c1_st_index="270" c1_end_index="270" c2_st_index="0" c2_end_index="0"/>
 		</connection>
 		
 		<connection name="fmc_lpc_connector_control_signals" component1="fmc_lpc_connector" component2="control_signals">
-      		<connection_map name="fmc_lpc_connector_control_signals_1" typical_delay="5" c1_st_index="249" c1_end_index="249" c2_st_index="0" c2_end_index="0"/>
-			<connection_map name="fmc_lpc_connector_control_signals_2" typical_delay="5" c1_st_index="128" c1_end_index="128" c2_st_index="1" c2_end_index="1"/>
-			<connection_map name="fmc_lpc_connector_control_signals_3" typical_delay="5" c1_st_index="129" c1_end_index="129" c2_st_index="2" c2_end_index="2"/>
-			<connection_map name="fmc_lpc_connector_control_signals_4" typical_delay="5" c1_st_index="131" c1_end_index="131" c2_st_index="3" c2_end_index="3"/>
-			<connection_map name="fmc_lpc_connector_control_signals_5" typical_delay="5" c1_st_index="306" c1_end_index="306" c2_st_index="4" c2_end_index="4"/>
+			<connection_map name="fmc_lpc_connector_control_signals_1" typical_delay="5" c1_st_index="128" c1_end_index="128" c2_st_index="0" c2_end_index="0"/>
+			<connection_map name="fmc_lpc_connector_control_signals_2" typical_delay="5" c1_st_index="129" c1_end_index="129" c2_st_index="1" c2_end_index="1"/>
+			<connection_map name="fmc_lpc_connector_control_signals_3" typical_delay="5" c1_st_index="131" c1_end_index="131" c2_st_index="2" c2_end_index="2"/>
+			<connection_map name="fmc_lpc_connector_control_signals_4" typical_delay="5" c1_st_index="306" c1_end_index="306" c2_st_index="3" c2_end_index="3"/>
 		</connection>
 		
 	</connections>
