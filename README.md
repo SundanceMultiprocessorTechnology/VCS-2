@@ -1,4 +1,5 @@
 # VCS-2
+<img align="right" src=https://www.sundance.com/wp-content/uploads/docs/sundance_logo_105.png>
 This repository stores the VCS-2 source code.
 
 # Directory structure
